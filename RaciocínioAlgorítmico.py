@@ -17,8 +17,6 @@ idade= int (ano_atual) - int (nascimento)
 # VARIÁVEL = Pode assumir qualquer valor
 # CONSTANTE = Não muda
 
-#
-
 #No Exercício 02, é definido o valor de um carro (100 reais). 
 #Em seguida, o programa pergunta quantos carros o usuário deseja comprar.
 #O valor digitado é convertido para número e multiplicado pelo preço do carro, calculando assim o valor total da compra. 
@@ -34,8 +32,6 @@ valor_total = (int (quantidade) * int (carro))
 print (f" O valor dos carros fica: {valor_total} reais")
 # o F antes das aspas deixa colocar variáveis dentro do texto
 
-#
-
 #No Exercício 03, o usuário informa uma temperatura em Celsius. 
 #O programa utiliza a fórmula de conversão para Fahrenheit (C × 9/5 + 32) 
 #para transformar a temperatura e mostrar o resultado na tela.
@@ -50,8 +46,6 @@ print ( f" temperatura em Fahrenheit: {int(Fahrenheit)}")
 
 # Usar o {int()} faz com que o valor final fique sem o .0
 
-#
-
 #No Exercício 04, o programa pede quatro notas ao usuário. 
 #Depois, ele soma todas as notas e divide por quatro para calcular a média final.
 
@@ -64,8 +58,6 @@ Nota4= input ("Qual sua quarta nota?")
 
 Soma= (int (Nota1) + int (Nota2) + int (Nota3) + int (Nota4))
 print (f" Sua nota final é {int (Soma) / 4 }")
-
-#
 
 #No Exercício 05, o programa pede o ano de nascimento novamente,
 #calcula a idade usando o ano atual e depois multiplica a idade por 12 
