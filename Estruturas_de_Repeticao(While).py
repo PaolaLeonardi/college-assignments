@@ -1,4 +1,4 @@
-print ("Exercício 03") # Pede um número de 0 a 10 e só aceita quando o valor é válido
+print ("Exercício 03") 
 
 numero = int(input("Estudante, digite um número de 0 a 10"))
 
@@ -6,10 +6,4 @@ while numero > 10 or numero < 0: # Ou posso usar 0 < numero < 10 se preferir (no
     print ("Inválido, digite uma número de 0 a 10")
     numero = int(input("Digite um número de 0 a 10: ")) # Repete
 
-print (f"sua nota é {numero}") # Dentro de {} você coloca a variável
-
-#Proximos ex. a fazer: ----------------------------------------------------
-
-#4.Implemente um programa em Python para imprimir na tela o somatório dos N primeiros números inteiros a partir do 1. Sendo N lido do teclado;
-#5. Implemente um programa em Python para ler do teclado números. Caso o usuário forneça um número igual a -1, o programa deve fornecer a média dos números e encerrar;
-#6. Escreva um programa que receba 10 números do teclado e exiba a quantidade de números pares e ímpares lidos.
+print (f"sua nota é {numero}") 
