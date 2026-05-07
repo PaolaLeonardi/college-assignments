@@ -1,0 +1,29 @@
+n = [5,7,12,2,9,21]
+n [1] = 17 #Indíce 1
+n [3] = 22 #Indíce 3
+n [2] = 1 #Indíce 2
+n [4] = 29 #Indíce 4
+print (n [0])
+print (n [1])
+print (n [2])
+print (n [3])
+print (n [4])
+print (n [5])
+
+soma = n[5] + n[4]
+sub = n[3] + n[1]
+multi = n[0] * n[5]
+div = n[3] / n[2]
+
+print ("As operações ficaram:")
+print (soma, sub, multi, div)
+
+numero=[10,7,2,15]
+indice = 0
+
+while indice < 4:
+    print(n[indice])
+    indice += 1
+
+for indice in range (5):
+   indice += 1
