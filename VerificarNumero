@@ -1,0 +1,6 @@
+numero = input("Digite um número:")
+
+while not numero.isdigit():
+        numero = input("Digite um número:")
+
+numero = int(numero)
