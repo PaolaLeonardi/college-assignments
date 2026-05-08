@@ -1,0 +1,32 @@
+#Crie um algoritmo que possua duas listas vazias chamadas:numerosJogador1 e numerosJogador2. 
+#Em seguida, randomize um número entre 1 e 6 (vamos simular um dado) e armazene o valor na lista.
+#Repita esse processo 3 vezes (como se 3 dados tivessem sido jogados) para cada um dos jogadores. 
+#Por último, some os valores de cada jogador, e exiba na tela qual jogador foi o vencedor. 
+#Vence aquele que tiver a soma com maior número.
+
+numerosJogador1 = []
+numerosJogador2 = []
+
+import random
+for i in range(3):
+    numerosJogador1.append(random.randint(1, 6))
+    numerosJogador2.append(random.randint(1, 6))
+
+print (numerosJogador1)
+print (numerosJogador1)
+
+print ("SOMA DOS NÚMEROS:")
+
+soma1 = sum(numerosJogador1)
+soma2 = sum(numerosJogador2)
+
+print ("PLACAR FINAL:")
+print (soma1)
+print (soma2)
+
+if soma1 > soma2:
+    print("Jogador 1 venceu!")
+elif soma2 > soma1:
+    print("Jogador 2 venceu!")
+else:
+    print("Empate!")
