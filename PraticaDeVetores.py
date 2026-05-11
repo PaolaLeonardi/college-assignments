@@ -1,6 +1,5 @@
-#O código cria uma lista de números, altera alguns valores, 
-#mostra os números na tela e realiza operações matemáticas como soma, multiplicação e divisão usando os elementos da lista. 
-#No final, ele cria outra lista para provavelmente usar depois em alguma repetição ou cálculo.
+#O código cria uma lista de números, altera alguns valores, exibe os elementos na tela e realiza operações matemáticas como soma, multiplicação e divisão. 
+#Depois, cria outra lista e utiliza estruturas de repetição (while e for) para multiplicar cada número dessa lista por 2 e mostrar os resultados.
 
 n = [5,7,12,2,9,21]
 n [1] = 17 #Indíce 1
@@ -26,8 +25,14 @@ print (soma, sub, multi, div)
 numero=[10,7,2,15]
 i = 0
 
-#Faça um programa que possua um vetor denominado A que armazene 6 números inteiros.
-# O programa deve executar os seguintes passos:
+while i < 4:
+    print(numero[i]*2)
+    i+= 1
+
+for i in range(len(numero)):
+    print(numero[i] * 2
+
+#Faça um programa que possua um vetor denominado A que armazene 6 números inteiros. O programa deve executar os seguintes passos:
 #(a) Atribua os seguintes valores a esse vetor: 1, 0, 5, -2, -5, 7.
 #(b) Armazene em uma variável inteira (simples) a soma entre os valores das posições
 #A[0], A[1] e A[5] do vetor e mostre na tela esta soma.
@@ -39,10 +44,3 @@ soma = A[0]+A[1]+A[2]
 print (soma)
 A [4] = 100
 print (A)
-
-while i < 4:
-    print(numero[i]*2)
-    i+= 1
-
-for i in range(len(numero)):
-    print(numero[i] * 2
