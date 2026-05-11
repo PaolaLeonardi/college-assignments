@@ -44,3 +44,15 @@ soma = A[0]+A[1]+A[2]
 print (soma)
 A [4] = 100
 print (A)
+
+#Crie um programa que le 6 valores inteiros e, em seguida, mostre na tela os valores lidos.
+
+Valor1 = (int(input("Diga um valor inteiro")))
+Valor2 = (int(input("Diga outro valor inteiro")))
+Valor3 = (int(input("Diga mais um valor inteiro")))
+Valor4 = (int(input("Diga mais outro valor inteiro")))
+Valor5 = (int(input("Diga o penúltimo valor inteiro")))
+Valor6 = (int(input("Diga o último valor inteiro")))
+
+Valores = [Valor1, Valor2, Valor3, Valor4, Valor5, Valor6]
+print (Valores)
